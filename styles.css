@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins";
+  background-color: rgb(239, 234, 234);
+}
+
+.container {
+  padding: 30px 50px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  width: 60%;
+  border-radius: 5px;
+}
+
+.container h2 {
+  font-size: calc(1vw + 1rem);
+  font-weight: 700;
+}
+
+#expenseForm {
+  padding: 10px 0;
+}
+
+#expenseForm input {
+  width: 100%;
+  margin: 5px 0;
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
+  font-size: calc(0.5vw + 0.5rem);
+}
+
+#expenseForm select {
+  width: 100%;
+  margin: 5px 0;
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
+  color: slateblue;
+  font-weight: 700;
+  font-size: calc(0.5vw + 0.5rem);
+}
+
+#submit {
+  font-size: calc(0.5vw + 0.5rem);
+  font-weight: 700;
+  color: antiquewhite;
+  background-color: slateblue;
+}
+
+.container h3 {
+  font-size: calc(0.9vw + 0.9rem);
+  font-weight: 600;
+}
+
+#expense-table {
+  width: 100%;
+  margin-top: 20px;
+}
+
+thead {
+  background-color: slateblue;
+  color: antiquewhite;
+}
+th {
+  padding: 5px;
+  text-align: left;
+}
+td {
+  padding: 5px;
+  text-align: left;
+}
